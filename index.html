@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zakó Tamás Portfólió oldal</title>
+    <title>Zakó Tamás Portfólio oldal</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="/img/zt_favi.jpg">
+    <link rel="icon" type="image/x-icon" href="https://zakotamas.github.io/CV//img/zt_favi.jpg">
+
     <script src="https://kit.fontawesome.com/473affcacb.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -16,15 +17,16 @@
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#rolam">Rólam</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#services">Szolgáltatás</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <button class="toggle-mode"><i class="fas fa-adjust"></i></button>
                     <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Frontend junior</p>
+                <p>Lelkes webszerkesztő</p>
                 <h1>Hi, <span>Tamás </span>vagyok<br>egy magyar Ausztriából</h1>
             </div>
         </div>
@@ -38,36 +40,34 @@
                 </div>
                 <div class="rolam-col-2">
                     <h1 class="sub-title">Rólam</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not 
-                        only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem 
-                        Ipsum.</p>
+                    <p>Eddigi munkáim során a logisztika több ágazatában, illetve az informatika terén szereztem tapasztalatot.
+                       Az elmúlt néhány évben Németországban és Ausztriában igyekeztem bővíteni tudásomat és világlátásomat.
+                       Produktív, türelmes, precíz és segítőkész hozzáállás jellemez a munkám során.
+                       Célom, hogy a tanulmányaimnak és egyéb kompetenciáimnak megfelelően visszakerüljek a magyar élet körforgásába.
+                       Továbbá szeretnék a jövőben, számomra ismeretlen területeken is bizonyítani, ez által is tovább fejlődni.</p>
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('EXP')">EXP</p>
-                        <p class="tab-links" onclick="opentab('EDU')">EDU</p>
+                        <p class="tab-links active-link" onclick="opentab('skills')">Sikereim</p>
+                        <p class="tab-links" onclick="opentab('EXP')">Tapasztalat</p>
+                        <p class="tab-links" onclick="opentab('EDU')">Iskola</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>UI/UX</span><br>WEB design</li>
-                            <li><span>Web fejlesztés</span><br>WEB app</li>
-                            <li><span>App fejlesztés</span><br>Android</li>
+                            <li><span>Vectra-Line Kft-nél teljesen új projektként egy 45 céget számláló webáruházcsoport felépítése és menedzselése.</span><br></li>
+                            <li><span>Két külföldi országban is siekresen helytálltam, bizonyítva szakmai rugalmasságomat és rátermettségemet.</span><br></li>                         
                         </ul>
                     </div>
                     <div class="tab-contents" id="EXP">
                         <ul>
-                            <li><span>2021</span><br>WEB design</li>
-                            <li><span>Web fejlesztés</span><br>WEB app</li>
-                            <li><span>App fejlesztés</span><br>Android</li>
+                            <li><span>2013-2017 Vectra-Line Kft</span><br>Web és rendszerkoordinátor</li>
+                            <li><span>2017-2021 ROMA KG</span><br>Raktáros/targoncavezető</li>
+                            <li><span>2021-től Wallner&Neubert GmbH</span><br>Megbízott raktárvezető helyettes</li>
                         </ul>
                     </div><div class="tab-contents" id="EDU">
                         <ul>
-                            <li><span>2016</span><br>WEB design</li>
-                            <li><span>Web fejlesztés</span><br>WEB app</li>
-                            <li><span>App fejlesztés</span><br>Android</li>
+                            <li><span>2008-2010</span><br>Logisztikai ügyintéző</li>
+                            <li><span>2004-2008</span><br>Érettségi - Informatika szak</li>
+                            <li><span>Egyéb</span><br>Autodidakta webszerkesztő</li>
+                            <li><span>Német nyelv</span><br>kommunikációs szint</li>
                         </ul>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
             <div class="contact-left">
                 <h1 class="sub-title">Elérhetőségek</h1>
                 <p><i class="fa-solid fa-envelope"></i> zakotamas90@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i> TELEFONSZÁM</p>
+                <p><i class="fa-solid fa-phone"></i> +43 677 643 78 435</p>
                 <a href="download/Zako_Tamas_CV.pdf" download class="btn btn2"> CV letöltése</a>
             </div>
         </div>
@@ -197,6 +197,25 @@
     }
 
 </script>
+
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const mode = localStorage.getItem('mode') || 'light'; // Alapértelmezett világos mód
+        if (mode === 'dark') {
+            document.body.classList.add('dark-mode');
+        }
+    
+        document.querySelector('.toggle-mode').addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            const newMode = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
+            localStorage.setItem('mode', newMode);
+        });
+    });
+</script>
+
 
 
 </body>

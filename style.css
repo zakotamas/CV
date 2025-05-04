@@ -9,9 +9,27 @@ html{
 }
 
 body{
-    background: #080808;
-    color: #fff;
+    background: #5c5c5c; /* Világos háttér */
+    color: #080808; /* Sötét szöveg */
 }
+.dark-mode {
+    background: #080808;
+    color: #ffffff;
+}
+
+
+/*BG váltás*/
+.toggle-mode {
+    background: #9ebd30;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
 /*TELJES HÁTTÉR JOBBRA CSÚSZTATOTT KÉPPEL*/
 #header{
     width: 100%;
@@ -249,6 +267,7 @@ nav ul li a:hover::after{
     background: #7c7c0b;
 }
 
+/*---------lábléc---------*/
 .copyright{
     width: 100%;
     text-align: center;
@@ -298,7 +317,6 @@ nav ul li a:hover::after{
     }
 } 
 }
-
 
 /*---------Kis kijelző--------------*/
 
@@ -378,6 +396,7 @@ nav .fa-solid{
             }
         } 
     }
+    
 
 }
 
