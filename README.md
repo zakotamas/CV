@@ -1,1 +1,1 @@
-https://zakotamas.github.io/cv
+https://zakotamas.github.io/CV
